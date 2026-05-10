@@ -107,6 +107,10 @@ Prompt avaliado:
 alansvieceli/bug_to_user_story_v2
 ```
 
+Prompt publicado no LangSmith:
+
+[bug_to_user_story_v2](https://smith.langchain.com/prompts/bug_to_user_story_v2?organizationId=f3ee703e-98a9-497b-99f5-92d4823a79cb)
+
 Resultado final da avaliacao:
 
 | Metrica | v1 / inicial | v2 / otimizado |
