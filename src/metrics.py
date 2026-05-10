@@ -29,7 +29,7 @@ from dotenv import load_dotenv
 from langchain_core.messages import SystemMessage, HumanMessage
 from utils import get_eval_llm
 
-load_dotenv()
+load_dotenv(override=True)
 
 
 def get_evaluator_llm():
@@ -264,7 +264,7 @@ def evaluate_precision(question: str, answer: str, reference: str) -> Dict[str, 
             "reasoning": "Explicação do LLM..."
         }
     """
-    
+
     evaluator_prompt = f"""
 Você é um avaliador especializado em detectar PRECISÃO e ALUCINAÇÕES em respostas de IA.
 
