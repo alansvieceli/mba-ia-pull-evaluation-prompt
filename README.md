@@ -107,9 +107,26 @@ Prompt avaliado:
 alansvieceli/bug_to_user_story_v2
 ```
 
-Prompt publicado no LangSmith:
+# Evidências no LangSmith
 
-[bug_to_user_story_v2](https://smith.langchain.com/prompts/bug_to_user_story_v2?organizationId=f3ee703e-98a9-497b-99f5-92d4823a79cb)
+## Dashboard de Tracing
+
+O projeto utilizou LangSmith Tracing para rastrear execuções, avaliações, métricas, latência, consumo de tokens e custo operacional.
+
+### Visão Geral do Projeto
+
+![Tracing Dashboard](./img/tracing.png)
+
+![Tracing Dashboard](./img/tracing2.png)
+
+### Execução dos Evaluators e Runs
+
+![Evaluation Dashboard](./img/dashboard.png)
+
+## Prompt Publicado
+
+- Prompt Hub:
+  https://smith.langchain.com/prompts/bug_to_user_story_v2?organizationId=f3ee703e-98a9-497b-99f5-92d4823a79cb
 
 Resultado final da avaliacao:
 
